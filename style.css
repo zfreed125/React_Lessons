@@ -1,0 +1,42 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.nav-items {
+    list-style: none;
+    display: flex;
+}
+
+.nav-items > li {
+    padding: 10px;
+    background-color: aqua;
+}
+
+.pic {
+    width: 60px;
+    height: 60px;
+}
+
+.nav-body {
+    margin-top: 250px;
+    margin-left: 550px;
+}
+
+.nav-foot {
+    position: absolute;
+        bottom: 0;
+        width: 100%;
+        background-color: rgb(194, 194, 194);
+        text-align: center;
+        padding: 10px;
+}
+
+.nav-list > li {
+    margin-left: 110px;
+    font-size: 20;
+    padding: 20px;
+}
